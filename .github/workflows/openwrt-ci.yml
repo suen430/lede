@@ -98,11 +98,11 @@ jobs:
           # 无论你想要对固件进行怎样的定制, 都需要且只需要修改 EOF 回环内的内容.
           # 
 
-          # 编译x64固件:
+          # 编译Nanopi-R4S-4G固件:
           # cat >> .config <<EOF
-          # CONFIG_TARGET_x86=y
-          # CONFIG_TARGET_x86_64=y
-          # CONFIG_TARGET_x86_64_Generic=y
+          # CONFIG_TARGET_rockchip=y
+          # CONFIG_TARGET_rockchip_armv8=y
+          # CONFIG_TARGET_rockchip_armv8_DEVICE_friendlyarm_nanopi-r4s-4gb=y
           # EOF
 
           # 固件压缩:
